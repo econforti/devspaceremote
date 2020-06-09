@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/econfort/Git/dev-spaces-redirect/mywebapi/mywebapi.csproj": {}
+  },
+  "projects": {
+    "/home/econfort/Git/dev-spaces-redirect/mywebapi/mywebapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/econfort/Git/dev-spaces-redirect/mywebapi/mywebapi.csproj",
+        "projectName": "mywebapi",
+        "projectPath": "/home/econfort/Git/dev-spaces-redirect/mywebapi/mywebapi.csproj",
+        "packagesPath": "/home/econfort/.nuget/packages/",
+        "outputPath": "/home/econfort/Git/dev-spaces-redirect/mywebapi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/econfort/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
